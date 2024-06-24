@@ -53,6 +53,9 @@ But it doesn't do much right now.
 In the next part, we will hook up the deck of cards to the sprites!
 
 ```template
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    reveal()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     reveal()
 })
@@ -79,6 +82,9 @@ function setupDeck () {
     theDeck = PlayingCards.createPokerDeck()
     theDeck.shuffle()
 }
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    reveal()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     reveal()
 })

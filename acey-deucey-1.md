@@ -46,9 +46,12 @@ playerSprite.setFlag(SpriteFlag.Invisible, true)
 
 Create a function that reveals the card.
 (We will do more in this function later!)
-Call the function when the player presses the **A** button.
+Call the function when the player presses the **A** button or the **B** button.
 
 ```blocks
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    reveal()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     reveal()
 })
@@ -64,6 +67,9 @@ function reveal () {
 Now, let's add a deck of cards to the game!
 
 ```ghost
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    reveal()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     reveal()
 })
