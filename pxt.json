@@ -10,7 +10,8 @@
         "README.md",
         "acey-deucey-1.md",
         "acey-deucey-2.md",
-        "acey-deucey-3.md"
+        "acey-deucey-3.md",
+        "acey-deucey-4.md"
     ],
     "testDependencies": {},
     "targetVersions": {
