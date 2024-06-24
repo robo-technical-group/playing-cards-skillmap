@@ -8,7 +8,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "acey-deucey-1.md"
+        "acey-deucey-1.md",
+        "acey-deucey-2.md"
     ],
     "testDependencies": {},
     "targetVersions": {
