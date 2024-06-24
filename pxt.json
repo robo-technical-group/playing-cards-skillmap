@@ -7,7 +7,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "acey-deucey-1.md"
     ],
     "testDependencies": {},
     "targetVersions": {
@@ -17,5 +18,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
