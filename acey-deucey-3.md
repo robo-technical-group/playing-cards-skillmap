@@ -79,6 +79,9 @@ function setupDeck () {
     theDeck = PlayingCards.createPokerDeck()
     theDeck.shuffle()
 }
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    reveal()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     reveal()
 })
