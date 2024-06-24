@@ -130,6 +130,21 @@ function startRound () {
     playerSprite.setFlag(SpriteFlag.Invisible, true)
 }
 ```
+
+## Hi or lo?
+
+By default, aces are low. Does that seem backward for your game?
+Feel free to change it!
+
+```block
+function setupDeck () {
+    let theDeck: Shoe = PlayingCards.createPokerDeck()
+    theDeck.shuffle()
+    // @highlight
+    theDeck.isAceHigh = true
+}
+```
+
 ## Done
 
 Great work!
@@ -183,6 +198,7 @@ startRound()
 function setupDeck () {
     theDeck = PlayingCards.createPokerDeck()
     theDeck.shuffle()
+    theDeck.isAceHigh = true
 }
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     playerChoseInBetween = false
