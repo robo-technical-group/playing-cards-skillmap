@@ -11,7 +11,8 @@
         "acey-deucey-1.md",
         "acey-deucey-2.md",
         "acey-deucey-3.md",
-        "acey-deucey-4.md"
+        "acey-deucey-4.md",
+        "playing-cards-skillmap.md"
     ],
     "testDependencies": {},
     "targetVersions": {
