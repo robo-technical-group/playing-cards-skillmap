@@ -94,5 +94,5 @@ setupSprites()
 ```package
 playing_card_skillmap_assets=github:robo-technical-group/playing_card_skillmap_assets.git
 PlayingCards=github:robo-technical-group/pxt-arcade-playing-cards.git
-fancyText=github:riknoll/arcade-fancy-text.git
+textsprite=github:microsoft/arcade-text.git
 ```
