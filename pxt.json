@@ -12,5 +12,6 @@
     "dependencies": {
         "device": "*"
     },
-    "testDependencies": {}
+    "testDependencies": {},
+    "preferredEditor": "blocksprj"
 }
