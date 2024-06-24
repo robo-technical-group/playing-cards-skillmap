@@ -8,6 +8,7 @@
 
 * name: Acey Deucey
 * description: Learn the basics of the playing-cards extension with a simple game.
+* bannerurl: https://robo-technical-group.github.io/playing-cards-skillmap/assets/img/R256.png
 
 ### acey-deucey-1
 
