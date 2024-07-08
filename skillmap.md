@@ -56,33 +56,41 @@
 ### war-1
 
 * name: War part 1
-* description: A
+* description: Let's get things started with some sprites!
 * type: tutorial
 * url: https://github.com/robo-technical-group/playing-cards-skillmap/war-1
 * next: war-2
 
 ### war-2
 
-* name: War part 1
-* description: B
+* name: War part 2
+* description: Now, let's add a deck of cards to the game!
 * type: tutorial
-* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-1
+* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-2
 * next: war-3
 
 ### war-3
 
-* name: War part 1
-* description: C
+* name: War part 3
+* description: Next, let's get a round started!
 * type: tutorial
-* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-1
+* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-3
 * next: war-4
 
 ### war-4
 
-* name: War part 1
-* description: D
+* name: War part 4
+* description: Next, we'll let the players play a card!
 * type: tutorial
-* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-1
+* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-4
+* next: war-5
+
+### war-5
+
+* name: War part 5
+* description: Time to finish the game!
+* type: tutorial
+* url: https://github.com/robo-technical-group/playing-cards-skillmap/war-5
 * next: war-finish
 
 ### war-finish

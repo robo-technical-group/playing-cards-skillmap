@@ -12,7 +12,12 @@
         "acey-deucey-2.md",
         "acey-deucey-3.md",
         "acey-deucey-4.md",
-        "skillmap.md"
+        "skillmap.md",
+        "war-1.md",
+        "war-2.md",
+        "war-3.md",
+        "war-4.md",
+        "war-5.md"
     ],
     "testDependencies": {},
     "targetVersions": {
